@@ -52,3 +52,4 @@ export const analyzeSkillGap = (req, res) => {
     suggestedLearningOrder: learningOrder,
   });
 };
+

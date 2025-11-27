@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "builds": [
+    { "src": "api/*.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+    { "src": "/api/roadmap", "dest": "/api/roadmap.js" },
+    { "src": "/api/skill-gap", "dest": "/api/skill-gap.js" },
+    { "src": "/api/news", "dest": "/api/news.js" }
+    ]
+    }
