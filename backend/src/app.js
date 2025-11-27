@@ -33,7 +33,7 @@ app.use(express.json());
 // CORS configuration
 const allowedOrigins = [
   "http://localhost:5173", // Vite dev server
-  "https://careerroadmapanalysis.vercel.app/" // Replace with your Vercel frontend URL
+  "https://careerroadmapanalysis.vercel.app" // Replace with your Vercel frontend URL
 ];
 
 app.use(cors({
